@@ -236,7 +236,7 @@ body {
 }
 
 .projects-grid {
-    display: grid;    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
@@ -311,4 +311,69 @@ body {
 .coming {
     color: #888;
     font-size: 14px;
+}
+
+.contact {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.contact h1 {
+    color: var(--violet-doux);
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin: 20px 0;
+    font-size: 18px;
+    color: var(--gris-fonce);
+}
+
+.contact-info i {
+    margin-right: 8px;
+    color: var(--violet-doux);
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: left;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--gris-clair);
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--violet-doux);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: var(--violet-fonce);
 }
