@@ -1,45 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MON PORTFOLIO</title>
+    <title>MON PORTFOLIO - Passions</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <HEader>
+    <header>
         <div>
-            <a href="">mon portfolio</a>
+            <a href="index.html">mon portfolio</a>
         </div>
-        <ul>
-            <li><a href="index.html"class="active">accueil</a></li>
-            <li><a href="projets.html">projets</a></li>
-            <li><a href="passions.html">passions</a></li>
-            <li><a href="divertissement.html">divertissement</a></li>
-            <li><a href="contact.html">contact</a></li>
-            <ul>
         <nav>
+            <ul>
+                <li><a href="index.html">accueil</a></li>
+                <li><a href="projets.html">projets</a></li>
+                <li><a href="passions.html" class="active">passions</a></li>
+                <li><a href="divertissement.html">divertissement</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <h1>voici mes passions</h1>
+
+    <main class="page-passions">
+        <section>
+            <h2>Mes Passions</h2>
+            <p class="intro-passions">
+                Être une développeuse créative, c'est aussi puiser son inspiration en dehors du code. 
+                Voici les domaines qui nourrissent ma curiosité et mon imagination au quotidien.
+            </p>
+
+            <div class="passions-grid">
+                
+                <div class="passion-box">
+                    <i class="fa-solid fa-code passion-icon"></i>
+                    <h3>Développement Web</h3>
+                    <p>Transformer des idées complexes en interfaces interactives et performantes. Le code est pour moi un formidable outil de création sans limite.</p>
+                </div>
+
+                <div class="passion-box">
+                    <i class="fa-solid fa-bezier-curve passion-icon"></i>
+                    <h3>Design Graphique</h3>
+                    <p>Sensible à l'esthétique, j'aime concevoir des visuels harmonieux et modernes, en jouant avec les couleurs et les typographies pour une meilleure expérience utilisateur.</p>
+                </div>
+
+                <div class="passion-box">
+                    <i class="fa-solid fa-microchip passion-icon"></i>
+                    <h3>Technologie & Innovation</h3>
+                    <p>Toujours en veille, je suis fascinée par l'évolution rapide du numérique et par la façon dont les nouvelles technologies façonnent notre avenir.</p>
+                </div>
+
+                <div class="passion-box">
+                    <i class="fa-solid fa-book-open passion-icon"></i>
+                    <h3>Lecture</h3>
+                    <p>Qu'il s'agisse de documentations techniques pour monter en compétences ou d'ouvrages inspirants, la lecture nourrit mon ouverture d'esprit.</p>
+                </div>
+
+                <div class="passion-box">
+                    <i class="fa-solid fa-pen-nib passion-icon"></i>
+                    <h3>Création de contenu</h3>
+                    <p>Partager mes découvertes, documenter mon parcours d'étudiante et échanger avec la communauté me motive à structurer et transmettre mes idées.</p>
+                </div>
+
+                <div class="passion-box">
+                    <i class="fa-solid fa-shield-halved passion-icon"></i>
+                    <h3>Cybersécurité</h3>
+                    <p>Comprendre les vulnérabilités pour mieux protéger les systèmes et les données. C'est un domaine stimulant qui demande rigueur, logique et analyse constante.</p>
+                </div>
+
+                <div class="passion-box">
+                    <i class="fa-solid fa-gamepad passion-icon"></i>
+                    <h3>Jeux vidéo</h3>
+                    <p>Au-delà du divertissement, j'analyse les mécaniques de jeu, le level design et le storytelling interactif comme sources d'inspiration pour mes propres créations.</p>
+                </div>
+
+                <div class="passion-box">
+                    <i class="fa-solid fa-rocket passion-icon"></i>
+                    <h3>Entrepreneuriat digital</h3>
+                    <p>Imaginer des solutions viables et innovantes, comprendre le marché et transformer un simple projet tech en un produit qui apporte une réelle valeur aux utilisateurs.</p>
+                </div>
+
+            </div>
+        </section>
     </main>
     
-        <footer>
-            <p>© 2026 Chloé. Tous droits réservés.</p>
-    
-            <div>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-solid fa-x"></i></a>
-            </div>
-        </footer>
-    
-    </body>
-    </html>
+    <footer>
+        <p>© 2026 Chloé. Tous droits réservés.</p>
+        <div>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-solid fa-x"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
